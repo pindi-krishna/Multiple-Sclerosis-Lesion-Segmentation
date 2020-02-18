@@ -1,4 +1,4 @@
-# Multiple-Sclerosis_Lesion_Segmentation
+# Multiple-Sclerosis-Lesion-Segmentation
 ## Abstract 
 This paper presents a light weighted fully convolutional
 network based automated method for multiple sclerosis(
@@ -88,16 +88,8 @@ this paper. We have trained the model for 60 epochs.
 The proposed segmentation framework using binary cross
 entropy as loss function obtained the Accuracy of 96.79%
 , DSC of 0.76 , sensitivity of 0.65 and specificity of 0.86.
-![](MS_Images/1_a.png)
-![](MS_Images/1_b.png)
-![](MS_Images/1_c.png)
-![](MS_Images/1_d.png)
-![](MS_Images/1_e.png)
-![](MS_Images/1_f.png)
-![](MS_Images/1_g.png)
 
-
-4. Plots :
+4. Plots : 
 
 ![Loss vs epoch-num](MS_Images/Loss.png)
 ![Accuracy vs epoch-num](MS_Images/Accuracy.png)
@@ -109,3 +101,13 @@ To sum up, we have presented a light weighted deep learning
 framework for the automatic MS lesion segmentation from the
 MRI which outperform the U-Net and few other architectures
 in terms of training time, accuracy and complexity.
+
+![](MS_Images/1_a.png)
+![](MS_Images/1_b.png)
+![](MS_Images/1_c.png)
+![](MS_Images/1_d.png)
+![](MS_Images/1_e.png)
+![](MS_Images/1_f.png)
+![](MS_Images/1_g.png)
+
+#                                   Thank you 
