@@ -29,7 +29,7 @@ import plots
 import Metrics
 
 # Setting the path
-Path='G:/Multiple Scelerosis/Data Sets/MS segmentation challenge using a data management and processing infrastructure/Pre-processed'
+Path = 'MS_Data'
 
 
 
