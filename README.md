@@ -1,4 +1,4 @@
-# Multiple_Sclerosis_Lesion_Segmentation
+# Multiple-Sclerosis-Lesion-Segmentation
 ## Abstract 
 This paper presents a light weighted fully convolutional
 network based automated method for multiple sclerosis(
@@ -56,6 +56,7 @@ to 0 to 1 improve training.
   where epsilon = 0.00001 (a very small value) and 
   X represents one channel of any modalityof size (h * w).
 ## PROPOSED METHOD
+![Schematic diagram of the proposed light weighted U-Net architecture](MS_Images/Architecture.png)
 1. Network Architecture :
 The CNN framework consists of 8 convolutional
 layers , 1 sigmoid layer at the end, 4 Max-Pooling layers, 4
@@ -87,4 +88,26 @@ this paper. We have trained the model for 60 epochs.
 The proposed segmentation framework using binary cross
 entropy as loss function obtained the Accuracy of 96.79%
 , DSC of 0.76 , sensitivity of 0.65 and specificity of 0.86.
+
 4. Plots : 
+
+![Loss vs epoch-num](MS_Images/Loss.png)
+![Accuracy vs epoch-num](MS_Images/Accuracy.png)
+![Dice_Coefficient vs epoch-num](MS_Images/Dice_Coefficient.png)
+
+## Conclusion :
+
+To sum up, we have presented a light weighted deep learning
+framework for the automatic MS lesion segmentation from the
+MRI which outperform the U-Net and few other architectures
+in terms of training time, accuracy and complexity.
+
+![](MS_Images/1_a.png)
+![](MS_Images/1_b.png)
+![](MS_Images/1_c.png)
+![](MS_Images/1_d.png)
+![](MS_Images/1_e.png)
+![](MS_Images/1_f.png)
+![](MS_Images/1_g.png)
+
+#                                   Thank you 
