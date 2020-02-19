@@ -1,11 +1,4 @@
 # Multiple-Sclerosis-Lesion-Segmentation
-## Abstract 
-This paper presents a light weighted fully convolutional
-network based automated method for multiple sclerosis(
-MS) lesion segmentation from multimodal magnetic resonance
-(MR) scans which reduces the complexity of U-Net architecture
-and training time with significant extent.
-
 ## INTRODUCTION
 MS is a long-term, or persistent, condition that affects the
 central nervous system (CNS) which often leads to disability. The CNS is made up of optic nerve, brain and spinal cord.
